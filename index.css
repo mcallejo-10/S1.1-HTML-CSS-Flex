@@ -1,6 +1,6 @@
 html {
   max-width: 1200px;
-  /* background-color: rgb(251, 148, 225); */
+  background-color: whitesmoke;
 }
 
 /* ---------------------CABECERA---------------------------- */
@@ -106,7 +106,7 @@ html {
   /** PARA TABLETS **/
   html {
     max-width: 1000px;
-    /* background-color: aquamarine; */
+    background-color: aquamarine;
   }
    .navcont{
     display: flex;
@@ -135,7 +135,7 @@ html {
   /** PARA MÓVILES **/
   html {
     max-width: 768px;
-    /* background-color: rgb(255, 230, 230); */
+    background-color: rgb(255, 193, 193);
 
   }
    .navcont{
