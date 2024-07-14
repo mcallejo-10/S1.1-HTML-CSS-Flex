@@ -130,3 +130,37 @@ html {
     width: calc(100% - 20px);
   }
 }
+
+@media only screen and (max-width: 576px) {
+  /** PARA MÓVILES **/
+  html {
+    max-width: 768px;
+    /* background-color: rgb(255, 230, 230); */
+
+  }
+   .navcont{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    border: 20px solid black;
+  }
+
+  .article-container {
+    width: 100%;
+    border-bottom: 20px solid black;
+    
+  }
+  .articles {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .publi-container {
+
+    width: calc(100% - 20px);
+  }
+}
