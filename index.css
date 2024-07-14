@@ -99,3 +99,34 @@ html {
 }
 
 
+/* -------------------- MEDIA QUERIES ---------------------------- */
+
+
+@media only screen and (max-width: 768px) {  
+  /** PARA TABLETS **/
+  html {
+    max-width: 1000px;
+    /* background-color: aquamarine; */
+  }
+   .navcont{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    border: 20px solid black;
+  }
+
+  .article-container {
+
+    width: 100%;
+    border-bottom: 20px solid black;
+    
+  }
+  .publi-container {
+
+    width: calc(100% - 20px);
+  }
+}
