@@ -164,3 +164,17 @@ html {
     width: calc(100% - 20px);
   }
 }
+
+/* --------------------  ANIMATIONS ---------------------------- */
+
+@keyframes athover {
+  
+  from {background-color: rgb(255, 105, 105); transform: scale(1); }
+  to {background-color: rgb(255, 0, 183); transform: scale(1.1);}
+}
+
+.logo:hover{
+  animation: athover;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
