@@ -1,0 +1,101 @@
+html {
+  max-width: 1200px;
+  /* background-color: rgb(251, 148, 225); */
+}
+
+/* ---------------------CABECERA---------------------------- */
+
+.container {
+  margin: 20px;
+  border: 20px solid black;
+}
+
+.navcont {
+  display: flex;
+  flex-direction: row;
+  align-items: space-around;
+  border-bottom: 20px solid black;
+  padding: 10px solid grey;
+  overflow: hidden;
+
+}
+
+.navcont > div {
+  display: flex;
+  background-color: rgb(255, 105, 105);
+  border: 15px solid rgb(58, 105, 128);
+  /* border-inline: 10px solid rgb(58, 105, 128); */
+  padding: 10px;
+  align-items: center;
+}
+
+.nav {
+  flex: 2;
+  overflow-y: hidden;
+}
+.logo {
+  flex: 1;
+}
+.social {
+  flex: 1;
+}
+
+.banner {
+  background-color: rgb(255, 230, 0);
+  border: 20px solid orange;
+}
+
+/* ---------------------CONTENIDO---------------------------- */
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  border: 20px solid black;
+}
+
+.article-container {
+  display: flex;
+  flex-direction: column;
+  border-right: 20px solid black;
+  width: 70%;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article {
+  flex: 1 1 calc(50% - 60px);
+  background-color: rgb(21, 92, 164);
+  padding: 10px;
+  border: 20px solid rgb(93, 75, 137);
+}
+.navegacion {
+  background-color: rgb(152, 185, 222);
+  border: 20px solid rgb(93, 75, 137);
+  padding: 10px;
+}
+
+.publi-container {
+  background-color: rgb(255, 0, 128);
+  width: 30%;
+  padding: 10px;
+}
+
+.publi {
+  background-color: yellow;
+  border: 10px solid rgb(255, 0, 128);
+  padding: 10px;
+}
+
+/* ---------------------PIE---------------------------- */
+
+.pie {
+  background-color: rgb(255, 255, 126);
+  align-items: stretch;
+  padding: 10px;
+}
+
+

@@ -1,0 +1,58 @@
+# Node modules directory
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Directory for environment variables
+.env
+
+# Directory for build output
+dist/
+build/
+
+# Compiled JavaScript files
+*.tsbuildinfo
+
+# Debug files
+*.log
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# MacOS files
+.DS_Store
+
+# Temp files
+tmp/
+temp/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Parcel-bundler cache (used by parcel)
+.cache/
+
+# SASS-cache
+.sass-cache/
+
+# Output of `yarn build`
+.yarn/
+
+# Ignore minified files
+*.min.js
+*.min.css
+
+# Ignore sourcemaps
+*.map
